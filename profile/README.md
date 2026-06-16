@@ -3,7 +3,6 @@
 [![Built on Stellar](https://img.shields.io/badge/Built%20on-Stellar-blue?logo=stellar)](https://stellar.org)
 [![Soroban Smart Contracts](https://img.shields.io/badge/Smart%20Contracts-Soroban-purple)](https://soroban.stellar.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Ledger-Lenz/.github/blob/main/LICENSE)
-[![Drip Wave Application](https://img.shields.io/badge/Drip%20Wave-Application-orange)](https://dripwave.stellar.org)
 
 ### Hybrid On-Chain Fraud Detection for the Stellar DEX
 **Detecting Wash Trading and Artificial Volume Using Benford's Law + Ensemble Machine Learning on Soroban**
