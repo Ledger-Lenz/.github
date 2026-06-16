@@ -1,0 +1,40 @@
+name: Question / Discussion
+description: Ask a question or start a discussion about LedgerLens
+title: "[question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question about how LedgerLens works, how to integrate it, or how to contribute?
+        You're in the right place.
+
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic area
+      options:
+        - Detection methodology (Benford's Law, ML models)
+        - Data ingestion (Horizon API, streaming)
+        - API / REST endpoints
+        - Soroban contract / on-chain integration
+        - Dashboard
+        - CI/CD / development workflow
+        - Contributing / getting started
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What would you like to know or discuss?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Any relevant context, code snippets, or things you have already tried.
